@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Test Task">
+    <parameter name="site.url" value="${site.url}"/>
+
+    <test name = "Try SQL Page Tests">
+        <packages>
+            <package name="org.ragnards.testtask.tests"/>
+        </packages>
+    </test>
+</suite>
